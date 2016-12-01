@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2CDDF61DEFF8D400BCC200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDDF51DEFF8D400BCC200 /* main.m */; };
+		BC2CDDF91DEFF8D400BCC200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDDF81DEFF8D400BCC200 /* AppDelegate.m */; };
+		BC2CDDFC1DEFF8D400BCC200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDDFB1DEFF8D400BCC200 /* ViewController.m */; };
+		BC2CDDFF1DEFF8D400BCC200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CDDFD1DEFF8D400BCC200 /* Main.storyboard */; };
+		BC2CDE011DEFF8D400BCC200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2CDE001DEFF8D400BCC200 /* Assets.xcassets */; };
+		BC2CDE041DEFF8D400BCC200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CDE021DEFF8D400BCC200 /* LaunchScreen.storyboard */; };
+		BC2CDE0F1DEFF8D400BCC200 /* MYWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE0E1DEFF8D400BCC200 /* MYWaveDemoTests.m */; };
+		BC2CDE1A1DEFF8D400BCC200 /* MYWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE191DEFF8D400BCC200 /* MYWaveDemoUITests.m */; };
+		BC2CDE2A1DEFFA5900BCC200 /* MYWave.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE291DEFFA5900BCC200 /* MYWave.m */; };
+		BC2CDE2D1DEFFA6600BCC200 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE2C1DEFFA6600BCC200 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2CDE0B1DEFF8D400BCC200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2CDDE91DEFF8D400BCC200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2CDDF01DEFF8D400BCC200;
+			remoteInfo = MYWaveDemo;
+		};
+		BC2CDE161DEFF8D400BCC200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC2CDDE91DEFF8D400BCC200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2CDDF01DEFF8D400BCC200;
+			remoteInfo = MYWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2CDDF11DEFF8D400BCC200 /* MYWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2CDDF51DEFF8D400BCC200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2CDDF71DEFF8D400BCC200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC2CDDF81DEFF8D400BCC200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC2CDDFA1DEFF8D400BCC200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC2CDDFB1DEFF8D400BCC200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC2CDDFE1DEFF8D400BCC200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC2CDE001DEFF8D400BCC200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC2CDE031DEFF8D400BCC200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC2CDE051DEFF8D400BCC200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CDE0A1DEFF8D400BCC200 /* MYWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2CDE0E1DEFF8D400BCC200 /* MYWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYWaveDemoTests.m; sourceTree = "<group>"; };
+		BC2CDE101DEFF8D400BCC200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CDE151DEFF8D400BCC200 /* MYWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2CDE191DEFF8D400BCC200 /* MYWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYWaveDemoUITests.m; sourceTree = "<group>"; };
+		BC2CDE1B1DEFF8D400BCC200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2CDE281DEFFA5900BCC200 /* MYWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWave.h; sourceTree = "<group>"; };
+		BC2CDE291DEFFA5900BCC200 /* MYWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWave.m; sourceTree = "<group>"; };
+		BC2CDE2B1DEFFA6600BCC200 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		BC2CDE2C1DEFFA6600BCC200 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2CDDEE1DEFF8D400BCC200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE071DEFF8D400BCC200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE121DEFF8D400BCC200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC2CDDE81DEFF8D400BCC200 = {
+			isa = PBXGroup;
+			children = (
+				BC2CDDF31DEFF8D400BCC200 /* MYWaveDemo */,
+				BC2CDE0D1DEFF8D400BCC200 /* MYWaveDemoTests */,
+				BC2CDE181DEFF8D400BCC200 /* MYWaveDemoUITests */,
+				BC2CDDF21DEFF8D400BCC200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2CDDF21DEFF8D400BCC200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDDF11DEFF8D400BCC200 /* MYWaveDemo.app */,
+				BC2CDE0A1DEFF8D400BCC200 /* MYWaveDemoTests.xctest */,
+				BC2CDE151DEFF8D400BCC200 /* MYWaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2CDDF31DEFF8D400BCC200 /* MYWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDE271DEFFA5900BCC200 /* MYWave */,
+				BC2CDDF71DEFF8D400BCC200 /* AppDelegate.h */,
+				BC2CDDF81DEFF8D400BCC200 /* AppDelegate.m */,
+				BC2CDE2B1DEFFA6600BCC200 /* UIView+Extension.h */,
+				BC2CDE2C1DEFFA6600BCC200 /* UIView+Extension.m */,
+				BC2CDDFA1DEFF8D400BCC200 /* ViewController.h */,
+				BC2CDDFB1DEFF8D400BCC200 /* ViewController.m */,
+				BC2CDDFD1DEFF8D400BCC200 /* Main.storyboard */,
+				BC2CDE001DEFF8D400BCC200 /* Assets.xcassets */,
+				BC2CDE021DEFF8D400BCC200 /* LaunchScreen.storyboard */,
+				BC2CDE051DEFF8D400BCC200 /* Info.plist */,
+				BC2CDDF41DEFF8D400BCC200 /* Supporting Files */,
+			);
+			path = MYWaveDemo;
+			sourceTree = "<group>";
+		};
+		BC2CDDF41DEFF8D400BCC200 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDDF51DEFF8D400BCC200 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC2CDE0D1DEFF8D400BCC200 /* MYWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDE0E1DEFF8D400BCC200 /* MYWaveDemoTests.m */,
+				BC2CDE101DEFF8D400BCC200 /* Info.plist */,
+			);
+			path = MYWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		BC2CDE181DEFF8D400BCC200 /* MYWaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDE191DEFF8D400BCC200 /* MYWaveDemoUITests.m */,
+				BC2CDE1B1DEFF8D400BCC200 /* Info.plist */,
+			);
+			path = MYWaveDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC2CDE271DEFFA5900BCC200 /* MYWave */ = {
+			isa = PBXGroup;
+			children = (
+				BC2CDE281DEFFA5900BCC200 /* MYWave.h */,
+				BC2CDE291DEFFA5900BCC200 /* MYWave.m */,
+			);
+			path = MYWave;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2CDDF01DEFF8D400BCC200 /* MYWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2CDE1E1DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemo" */;
+			buildPhases = (
+				BC2CDDED1DEFF8D400BCC200 /* Sources */,
+				BC2CDDEE1DEFF8D400BCC200 /* Frameworks */,
+				BC2CDDEF1DEFF8D400BCC200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MYWaveDemo;
+			productName = MYWaveDemo;
+			productReference = BC2CDDF11DEFF8D400BCC200 /* MYWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2CDE091DEFF8D400BCC200 /* MYWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2CDE211DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoTests" */;
+			buildPhases = (
+				BC2CDE061DEFF8D400BCC200 /* Sources */,
+				BC2CDE071DEFF8D400BCC200 /* Frameworks */,
+				BC2CDE081DEFF8D400BCC200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2CDE0C1DEFF8D400BCC200 /* PBXTargetDependency */,
+			);
+			name = MYWaveDemoTests;
+			productName = MYWaveDemoTests;
+			productReference = BC2CDE0A1DEFF8D400BCC200 /* MYWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC2CDE141DEFF8D400BCC200 /* MYWaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2CDE241DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoUITests" */;
+			buildPhases = (
+				BC2CDE111DEFF8D400BCC200 /* Sources */,
+				BC2CDE121DEFF8D400BCC200 /* Frameworks */,
+				BC2CDE131DEFF8D400BCC200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2CDE171DEFF8D400BCC200 /* PBXTargetDependency */,
+			);
+			name = MYWaveDemoUITests;
+			productName = MYWaveDemoUITests;
+			productReference = BC2CDE151DEFF8D400BCC200 /* MYWaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC2CDDE91DEFF8D400BCC200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mayan;
+				TargetAttributes = {
+					BC2CDDF01DEFF8D400BCC200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					BC2CDE091DEFF8D400BCC200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC2CDDF01DEFF8D400BCC200;
+					};
+					BC2CDE141DEFF8D400BCC200 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC2CDDF01DEFF8D400BCC200;
+					};
+				};
+			};
+			buildConfigurationList = BC2CDDEC1DEFF8D400BCC200 /* Build configuration list for PBXProject "MYWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC2CDDE81DEFF8D400BCC200;
+			productRefGroup = BC2CDDF21DEFF8D400BCC200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2CDDF01DEFF8D400BCC200 /* MYWaveDemo */,
+				BC2CDE091DEFF8D400BCC200 /* MYWaveDemoTests */,
+				BC2CDE141DEFF8D400BCC200 /* MYWaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC2CDDEF1DEFF8D400BCC200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2CDE041DEFF8D400BCC200 /* LaunchScreen.storyboard in Resources */,
+				BC2CDE011DEFF8D400BCC200 /* Assets.xcassets in Resources */,
+				BC2CDDFF1DEFF8D400BCC200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE081DEFF8D400BCC200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE131DEFF8D400BCC200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2CDDED1DEFF8D400BCC200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2CDE2D1DEFFA6600BCC200 /* UIView+Extension.m in Sources */,
+				BC2CDE2A1DEFFA5900BCC200 /* MYWave.m in Sources */,
+				BC2CDDFC1DEFF8D400BCC200 /* ViewController.m in Sources */,
+				BC2CDDF91DEFF8D400BCC200 /* AppDelegate.m in Sources */,
+				BC2CDDF61DEFF8D400BCC200 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE061DEFF8D400BCC200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2CDE0F1DEFF8D400BCC200 /* MYWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2CDE111DEFF8D400BCC200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2CDE1A1DEFF8D400BCC200 /* MYWaveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2CDE0C1DEFF8D400BCC200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2CDDF01DEFF8D400BCC200 /* MYWaveDemo */;
+			targetProxy = BC2CDE0B1DEFF8D400BCC200 /* PBXContainerItemProxy */;
+		};
+		BC2CDE171DEFF8D400BCC200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2CDDF01DEFF8D400BCC200 /* MYWaveDemo */;
+			targetProxy = BC2CDE161DEFF8D400BCC200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC2CDDFD1DEFF8D400BCC200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2CDDFE1DEFF8D400BCC200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC2CDE021DEFF8D400BCC200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC2CDE031DEFF8D400BCC200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2CDE1C1DEFF8D400BCC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC2CDE1D1DEFF8D400BCC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC2CDE1F1DEFF8D400BCC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC2CDE201DEFF8D400BCC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MYWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC2CDE221DEFF8D400BCC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYWaveDemo.app/MYWaveDemo";
+			};
+			name = Debug;
+		};
+		BC2CDE231DEFF8D400BCC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MYWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYWaveDemo.app/MYWaveDemo";
+			};
+			name = Release;
+		};
+		BC2CDE251DEFF8D400BCC200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYWaveDemo;
+			};
+			name = Debug;
+		};
+		BC2CDE261DEFF8D400BCC200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MYWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayan.MYWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MYWaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC2CDDEC1DEFF8D400BCC200 /* Build configuration list for PBXProject "MYWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2CDE1C1DEFF8D400BCC200 /* Debug */,
+				BC2CDE1D1DEFF8D400BCC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2CDE1E1DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2CDE1F1DEFF8D400BCC200 /* Debug */,
+				BC2CDE201DEFF8D400BCC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2CDE211DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2CDE221DEFF8D400BCC200 /* Debug */,
+				BC2CDE231DEFF8D400BCC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2CDE241DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2CDE251DEFF8D400BCC200 /* Debug */,
+				BC2CDE261DEFF8D400BCC200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC2CDDE91DEFF8D400BCC200 /* Project object */;
+}
