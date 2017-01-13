@@ -15,8 +15,8 @@
 		BC2CDE041DEFF8D400BCC200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2CDE021DEFF8D400BCC200 /* LaunchScreen.storyboard */; };
 		BC2CDE0F1DEFF8D400BCC200 /* MYWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE0E1DEFF8D400BCC200 /* MYWaveDemoTests.m */; };
 		BC2CDE1A1DEFF8D400BCC200 /* MYWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE191DEFF8D400BCC200 /* MYWaveDemoUITests.m */; };
-		BC2CDE2A1DEFFA5900BCC200 /* MYWave.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE291DEFFA5900BCC200 /* MYWave.m */; };
 		BC2CDE2D1DEFFA6600BCC200 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CDE2C1DEFFA6600BCC200 /* UIView+Extension.m */; };
+		BC64836D1E286D5C00E40E29 /* UIView+MYWave.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64836C1E286D5C00E40E29 /* UIView+MYWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		BC2CDE151DEFF8D400BCC200 /* MYWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2CDE191DEFF8D400BCC200 /* MYWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYWaveDemoUITests.m; sourceTree = "<group>"; };
 		BC2CDE1B1DEFF8D400BCC200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC2CDE281DEFFA5900BCC200 /* MYWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWave.h; sourceTree = "<group>"; };
-		BC2CDE291DEFFA5900BCC200 /* MYWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWave.m; sourceTree = "<group>"; };
 		BC2CDE2B1DEFFA6600BCC200 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		BC2CDE2C1DEFFA6600BCC200 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		BC64836B1E286D5C00E40E29 /* UIView+MYWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MYWave.h"; sourceTree = "<group>"; };
+		BC64836C1E286D5C00E40E29 /* UIView+MYWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MYWave.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,8 +152,8 @@
 		BC2CDE271DEFFA5900BCC200 /* MYWave */ = {
 			isa = PBXGroup;
 			children = (
-				BC2CDE281DEFFA5900BCC200 /* MYWave.h */,
-				BC2CDE291DEFFA5900BCC200 /* MYWave.m */,
+				BC64836B1E286D5C00E40E29 /* UIView+MYWave.h */,
+				BC64836C1E286D5C00E40E29 /* UIView+MYWave.m */,
 			);
 			path = MYWave;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC2CDE2D1DEFFA6600BCC200 /* UIView+Extension.m in Sources */,
-				BC2CDE2A1DEFFA5900BCC200 /* MYWave.m in Sources */,
+				BC64836D1E286D5C00E40E29 /* UIView+MYWave.m in Sources */,
 				BC2CDDFC1DEFF8D400BCC200 /* ViewController.m in Sources */,
 				BC2CDDF91DEFF8D400BCC200 /* AppDelegate.m in Sources */,
 				BC2CDDF61DEFF8D400BCC200 /* main.m in Sources */,
@@ -525,6 +525,7 @@
 				BC2CDE201DEFF8D400BCC200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2CDE211DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				BC2CDE231DEFF8D400BCC200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2CDE241DEFF8D400BCC200 /* Build configuration list for PBXNativeTarget "MYWaveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +543,7 @@
 				BC2CDE261DEFF8D400BCC200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
