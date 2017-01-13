@@ -4,7 +4,7 @@
 //
 //  Created by mayan on 2017/1/13.
 //  Copyright © 2017年 mayan. All rights reserved.
-//
+//  https://github.com/Mayan29/MYWave.git
 
 #import "UIView+MYWave.h"
 #import <objc/message.h>
